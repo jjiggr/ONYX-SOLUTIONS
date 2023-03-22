@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Onyx</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  </head>
+  <body>
+    <div class="loader">
+      <div class="loading-text">Loading</div>
+    </div>
+    <div class="content">
+      <div id="onyx-container"></div>
+      <div class="p-container">
+        <p>
+          ONYX Solutions is a London based 360˚ agency specialising in new
+          technology activations, community management, brand partnerships,
+          creative consultancy and creative strategy.
+        </p>
+      </div>
+      <div class="footer">
+        <a
+          href="https://www.linkedin.com/in/oscareriley/"
+          target="_blank"
+          class="footer-link"
+          >LINKEDIN</a
+        >
+        <div class="email-container">
+          <a href="mailto:OSCAR@ONYXSOLUTIONS.XYZ" class="footer-link"
+            >E-MAILME: OSCAR@ONYXSOLUTIONS.XYZ</a
+          >
+        </div>
+        <button id="subscribe-btn" class="footer-link">
+          SUBSCRIBE TO ONYX NEWSLETTER
+        </button>
+      </div>
+    </div>
+    <div id="newsletter-modal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <iframe
+          src="https://embeds.beehiiv.com/7cda521e-1ae0-4d48-8d71-97aa809dd5aa"
+          data-test-id="beehiiv-embed"
+          width="100%"
+          height="320"
+          frameborder="0"
+          scrolling="no"
+          style="
+            border-radius: 4px;
+            border: 2px solid #e5e7eb;
+            margin: 0;
+            background-color: transparent;
+          "
+        ></iframe>
+      </div>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
